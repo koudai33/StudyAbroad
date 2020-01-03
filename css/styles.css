@@ -189,3 +189,9 @@ li {
 .item+.item{
   margin-left:0.1em;
 }
+/* footer */
+footer {
+  background: #333333;
+  color: #ffffff;
+  height: 40px;
+}
