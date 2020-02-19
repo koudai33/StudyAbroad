@@ -1,3 +1,43 @@
+h1 {
+  position: relative;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #3498db;
+}
+h1::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+}
+h2 span {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 2.5em;
+  padding: 0 1em;
+  background-color: #fafafa;
+  text-align: left;
+}
+h2::before {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+
  /*======= Button 4 =======*/
  .wrapper {
   margin: 150px auto;
