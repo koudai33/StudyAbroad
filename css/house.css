@@ -3,6 +3,7 @@ body {
   text-align:center;
 }
 
+
 h1 {
   position: relative;
   padding: .25em 0 .5em .75em;
@@ -23,6 +24,20 @@ li {
   list-style: none;
 }
 
+.center {
+  text-align: center;
+  border: 1px dashed;
+}
+
+.disp-block {
+  display: block;
+}
+.blockcenter{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .header {
   background-color: #f3554ace;
   color: whitesmoke;
@@ -41,16 +56,12 @@ li {
 }
 
 .main {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  height: auto;
   background-color: #fafafa;
 }
 
 .wrap{
   display:flex;
   flex-wrap:nowrap;
-  /* justify-content:space-between; */
 }
 .item+.item{
   margin-left:0.1em;
