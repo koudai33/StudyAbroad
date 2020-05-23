@@ -1,27 +1,33 @@
 body {
   font-family: "Avenir Next";
-  text-align:center;
+  text-align: center;
+  background-image: url(../img/beautiful-color-gradients-backgrounds-158-angel-care.png);
+  background-size: cover;
+  /* background: url(../img/a1.jpg) center center / cover no-repeat fixed; */
 }
-
+/* .hero {
+  height: 100vh;
+  background: linear-gradient(
+      135deg,
+      rgba(242, 185, 161, 0.849),
+      rgba(234, 98, 100, 0.842)
+    ),
+    fixed url(img/a1.jpg) center center/cover no-repeat;
+} */
 
 h1 {
   position: relative;
-  padding: .25em 0 .5em .75em;
+  padding: 0.25em 0 0.5em 0.75em;
   border-left: 6px solid #3498db;
 }
 h1::after {
   position: absolute;
   left: 0;
   bottom: 0;
-  content: '';
+  content: "";
   width: 100%;
   height: 0;
   border-bottom: 1px solid #ccc;
-}
-
-
-li {
-  list-style: none;
 }
 
 .center {
@@ -29,19 +35,10 @@ li {
   border: 1px dashed;
 }
 
-.disp-block {
-  display: block;
-}
-.blockcenter{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 .header {
-  background-color: #f3554ace;
+  background-color: #f37c746b;
   color: whitesmoke;
-  height: 95px;
+  height: 90px;
 }
 
 .header-logo {
@@ -50,22 +47,17 @@ li {
   padding: 20px 40px;
 }
 
-.header-list li {
+.header-list ul li {
   float: left;
   padding: 33px 20px;
+  white-space: nowrap;
+  list-style: none;
+  color: rgba(55, 170, 236, 0.918);
+}
+p {
+  color: rgb(255, 242, 242);
 }
 
-.main {
-  background-color: #fafafa;
-}
-
-.wrap{
-  display:flex;
-  flex-wrap:nowrap;
-}
-.item+.item{
-  margin-left:0.1em;
-}
 /* footer */
 footer {
   width: 100%;
@@ -77,49 +69,3 @@ footer {
 .footer-text {
   color: rgb(129, 34, 34);
 }
-
-/* member */
-
-.members {
-  width: 302px;
-  position: relative;
-  float: left;
-  margin: 0 20px 0 0;
-}
-   img {
-    display: block;
-    position: relative;
-  }
-
-
-.team-info {
-  position: absolute;
-  bottom: 20px;
-  right: 0px;
-  width: 170px;
-  padding: 10px 10px 30px 10px;
-}
-.subhead {
-  color: #f2f2f2;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-.team-name {
-  color: white;
-  font-weight: 400;
-  margin: 0;
-  letter-spacing: -1px;
-}
-
-.team-description {
-	color: white;
-	padding-top: 20px;
-}
-
-.team-description i {
-	margin: 8px;
-}.team-stat i {
-	font-size: 28px;
-}
-
-
