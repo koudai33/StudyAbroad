@@ -49,6 +49,17 @@ li {
 nav {
   margin: 0 0 0 auto;
 }
+.button {
+  color: #fff;
+  background-color: #3a3a3a;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #000;
+  background-color: #dfdbdb;
+  text-decoration: none;
+}
 
 .main-visual {
   display: flex;
@@ -73,6 +84,23 @@ p,
 table {
   color: #fff;
   text-align: center;
+}
+
+#member {
+  width: 600px;
+  margin: 60px auto;
+  height: 100px;
+  text-align: justify;
+}
+
+#member:after {
+  width: 100%;
+  line-height: 0;
+  height: 0;
+}
+
+.mem {
+  color: #fff;
 }
 
 footer {
