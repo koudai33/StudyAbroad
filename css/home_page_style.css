@@ -26,7 +26,7 @@ header {
 h1 {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 40px;
   padding: 0.25em 0 0.5em 0.75em;
   position: relative;
 }
@@ -51,13 +51,25 @@ nav {
 }
 .button {
   color: #fff;
-  background-color: #3a3a3a;
+  border: 1px solid orange;
+  background-color: orange;
+  padding: 5px 10px;
+  border-radius: 5px; /*ボタンの角を丸くする*/
+  letter-spacing: 1px;
+
   text-decoration: none;
+  overflow: hidden;
+  float: right;
 }
 
 .button:hover {
-  color: #000;
-  background-color: #dfdbdb;
+  background-color: #fafafa;
+  border: 1px solid orange;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; /*ホバー時の変化を滑らかにする*/
+  color: orange;
+  overflow: hidden;
   text-decoration: none;
 }
 
@@ -74,9 +86,6 @@ h2 {
   text-align: center;
 }
 
-h1 {
-  font-size: 40px;
-}
 h2 {
   font-size: 30px;
 }
@@ -87,16 +96,9 @@ table {
 }
 
 #member {
-  width: 600px;
-  margin: 60px auto;
   height: 100px;
   text-align: justify;
-}
-
-#member:after {
-  width: 100%;
-  line-height: 0;
-  height: 0;
+  padding-left: 3%;
 }
 
 .mem {
